@@ -1,0 +1,123 @@
+#name {
+    background-image: url("img/detail_page_img/KQz0xi-6dA4.jpg");
+    align-items: center;
+}
+
+.block-title {
+    padding: 80px 0;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 38px;
+    background-color: #ffff;
+}
+
+.info-block h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 36px;
+    margin-bottom: 62px;
+}
+
+.general-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.general-info p{
+    font-size: 14px;
+    color: #626262;
+}
+
+.general-info span {
+    color: #E0E0E0;
+    font-size: 13px;
+    background-color: #262626;
+    padding: 8px 16px;
+    border-radius: 35px 35px;
+}
+
+#nav {
+    padding: 30px 0;
+    border-bottom: 1px solid #757575;
+    margin-bottom: 56px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a{
+    color: #626262;
+}
+
+.menu a:hover {
+    color: #327430;
+}
+
+/*food-list*/
+
+.food-list {
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.food {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.food h3{
+    margin-bottom: 4px;
+}
+
+.food img{
+    padding: 0;
+
+}
+
+.food a {
+    color: #000000;
+}
+
+
+.food-info {
+    display: flex;
+    max-height: 80%;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px 5px;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.compound-and-price {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+.compound-and-price h3 {
+    margin-bottom: 4px;
+}
+
+.compound-and-price p {
+    margin-top: 0;
+    color: #626262;
+}
+
+p.price {
+    padding-bottom: 16px;
+    margin-top: 38px;
+}
+
+.price span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1D1D1D;
+}

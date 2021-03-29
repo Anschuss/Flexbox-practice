@@ -1,0 +1,224 @@
+html, body, .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+    font-weight: normal;
+    color: #1D1D1D;
+}
+
+h1, h2,
+h3, h4, h5 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input, select {
+    border: none;
+    outline: none;
+}
+
+.col-md, .col-sm {
+    flex-basis: 0;
+}
+
+/*header*/
+
+
+
+#head {
+    display: flex;
+    align-items: center;
+}
+
+#user-panel {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#sign_in a {
+    color: #1D1D1D;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-left: 2px solid #E0E0E0;
+}
+
+#basket {
+    margin-left: 16px;
+}
+
+/*main*/
+
+#search {
+    margin-top: 32px;
+}
+
+#search form {
+    padding-top: 24px;
+}
+
+#search input{
+    width: 100%;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#search input[value]{
+    color: #626262;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 56px;
+}
+
+.title{
+    flex-basis: 0;
+}
+
+.restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+
+}
+
+.restaurants > div {
+    margin-bottom: 16px;
+}
+
+
+.restaurant {
+    display: flex;
+    flex-direction: column;
+}
+
+.restaurant img{
+    height: 100%;
+    width: 100%;
+}
+
+.restaurant h3 {
+    font-weight: normal;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.restaurant p {
+    color: #626262;
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+/*footer*/
+
+#foot {
+    display: flex;
+    flex-direction: column;
+    background-color: #262626;
+}
+
+#foot hr {
+    border: 1px solid #626262;
+}
+
+#foot img{
+    justify-content: flex-start;
+    padding: 40px 0 ;
+}
+
+#infos {
+    display: flex;
+    justify-content: space-between;
+    margin: 39px 0;
+}
+
+
+.colm select  {
+    color: #E0E0E0;
+    background-color: #3B3B3B;
+    width: 80%;
+    padding: 12px 0;
+    padding-left: 48px;
+}
+
+
+#tag {
+    color: #E0E0E0;
+}
+
+
+#tag h5 {
+    margin: 17px 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#tag span {
+    font-size: 16px;
+    color: #49A144;
+}
+
+#social_networks {
+   display: flex;
+    justify-content: flex-start;
+}
+
+#twitter, #instagram {
+    padding-left: 12px;
+}
+
+#partners, #faq {
+    display: flex;
+    flex-direction: column;
+}
+
+#partners a, #faq a{
+    color: #E0E0E0;
+    padding-bottom: 23px;
+}
+
+#apps {
+    display: flex;
+    justify-content: center;
+}
+
+#apps img {
+    width: 120px;
+    height: 40px;
+}
+
+#android {
+    padding-left: 40px;
+}
+
+
+#other {
+    display: flex;
+    justify-content: space-between;
+}
+
+#other a {
+    color: #E0E0E0;
+}
+ .colm {
+     flex-basis: 33%;
+ }
+
+ footer {
+     margin-top: 80px;
+ }
